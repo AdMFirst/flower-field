@@ -41,9 +41,11 @@ export default function SettingModal({ isOpen, onClose }: SettingModalProps) {
 
   // Clear all timers on unmount
   useEffect(() => {
+    const current = debounceTimers.current;
+
     return () => {
-      debounceTimers.current.forEach(timer => clearTimeout(timer));
-      debounceTimers.current.clear();
+        current.forEach(timer => clearTimeout(timer));
+        current.clear();
     };
   }, []);
 
