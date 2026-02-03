@@ -225,11 +225,6 @@ export default function SettingModal({ isOpen, onClose }: SettingModalProps) {
                 About Flower Field
               </button>
             </div>
-
-            <p className='opacity-50 text-xs text-white'>
-                Copyright &copy; 2026 AdMFirst.
-                This project is open source under the MIT License.
-            </p>
           </div>
         </div>
       </div>
