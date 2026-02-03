@@ -220,7 +220,7 @@ export default function SettingModal({ isOpen, onClose }: SettingModalProps) {
               </button>
               <button
                 onClick={() => navigate('/about')}
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition-colors"
+                className="w-full bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 hover:opacity-80 text-white font-medium py-2 px-4 rounded transition-colors"
               >
                 About Flower Field
               </button>
