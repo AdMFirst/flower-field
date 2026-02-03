@@ -3,7 +3,7 @@ import { persist } from 'zustand/middleware';
 
 import colors from '../assets/colors';
 
-interface GameConfig {
+export interface GameConfig {
   // Grid settings
   GRID_SIZE: number;
   FLOWER_SIZE: number;
